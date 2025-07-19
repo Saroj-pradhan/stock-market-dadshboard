@@ -1,10 +1,10 @@
-
+import Home from "./components/Home"
 function App() {
 
   return (
     <>
-      <div className='bg-amber-300'>
-    setting things up 
+      <div>
+   <Home/>
        </div>
     </>
   )
