@@ -3,19 +3,18 @@ import { useContext } from "react"
 function StockDataTable() {
     
  const [data,setdata ,presenteddata] = useContext(ContextApp);
- console.log(presenteddata);
  const ispositveValue  = Number(presenteddata.change) > 0;
   return (
 
  <>
-  <div className="flex justify-between text-white">
+    <div className="flex justify-between text-white">
            <div>
-              <p className="text-2xl">{presenteddata.name}</p>
+               <p className="text-2xl">{presenteddata.name}</p>
                <p className="text-xl text-gray-500">{presenteddata.symbol}</p>
            </div>
            <div>
-           <p className="text-2xl">₹ {presenteddata.price}</p>
-            <p className={`text-xl ${ispositveValue?"text-green-500":"text-red-600"}`}>{presenteddata.change} ({presenteddata.changePercent}%)</p>
+               <p className="text-2xl">₹ {presenteddata.price}</p>
+               <p className={`text-xl ${ispositveValue?"text-green-500":"text-red-600"}`}>{presenteddata.change} ({presenteddata.changePercent}%)</p>
            </div>
       
     </div>
