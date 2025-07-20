@@ -3,6 +3,7 @@ import { useContext } from "react"
 function StockDataTable() {
     
  const [data,setdata ,presenteddata] = useContext(ContextApp);
+ console.log(presenteddata);
  const ispositveValue  = Number(presenteddata.change) > 0;
   return (
 

@@ -27,7 +27,7 @@ setpresenteddata(filterdata[0]);
             </div>
             <div className="bg-slate-800 border-2  m-3 p-5"><StockDataTable/></div>
         </div>
-        <div className=" sm:grid grid-cols-[30%_70%] mt-3 pl-1.5 pr-1.5">
+        <div className="h-fit sm:grid grid-cols-[30%_70%] mt-3 pl-1.5 pr-1.5">
             <div className="   m-3"></div>
             <div className="bg-slate-800 border-2  m-3 p-5"><StockChart/></div>
         </div>

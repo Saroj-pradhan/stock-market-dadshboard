@@ -11,7 +11,7 @@ function Nav() {
        <p className="text-m">Real-time Indian Stock Market Analysis</p>
        </div>
     </div>
-    <p className="text-lg">MARKET-NSE/BSE</p>
+    <p className="text-lg">NSE/BSE</p>
     </div>
   )
 }
